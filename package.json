@@ -1,0 +1,41 @@
+{
+  "name": "reactreduxstruc",
+  "version": "1.0.0",
+  "description": "initial app set up for react apps",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregBorrelly/ReactReduxStruc.git"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "Ready"
+  ],
+  "author": "Greg Borrelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregBorrelly/ReactReduxStruc/issues"
+  },
+  "homepage": "https://github.com/GregBorrelly/ReactReduxStruc#readme",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "lodash": "^4.17.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "redux": "^3.7.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
