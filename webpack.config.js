@@ -10,7 +10,7 @@ module.exports = {
     },
     devServer:{
         inline: true,
-        contentBase:'./build',
+        contentBase:'./',
         port: 61116
 
     },
@@ -23,6 +23,10 @@ module.exports = {
                 query: {
                     presets: ["es2015", "react", "stage-1"]
                 } 
+            },
+            {
+                test: /\.css$/,
+                loader:"style-loader!css-loader"
             }
         ]
     }
